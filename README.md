@@ -16,8 +16,8 @@ The NUB Admission Costing Calculator includes the following features:
 - **Program Selection**: Allows candidates to select their desired undergraduate program.
 - **Waiver Calculation**: Calculates the waiver percentage based on SSC and HSC results.
 - **Cost Breakdown**: Provides a detailed breakdown of total costs.
-- **Duration and Credit Hours**: Informs candidates about the total duration of the program, the number of semesters, and total credit hours.
-- **About Section**: Includes information about the software, such as software name, version, developer's name, description, and project GitHub repo.
+- **Duration and Credit Hours**: Informs candidates about the number of semesters, and total credit hours.
+- **About Section**: Includes information about the software, such as software name, version, developer's name and description.
 
 ## Used Frameworks and GUI
 The project utilizes the following frameworks and GUI tools:
