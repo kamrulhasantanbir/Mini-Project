@@ -73,11 +73,11 @@ void calculate_waiver() {
     fclose(file);
 
     double adjusted_credit_fee = atof(credit_fee) - atof(credit_fee) * (waiver_percent / 100.0);
-    snprintf(credit_fee, sizeof(credit_fee), "%.2f", adjusted_credit_fee);
+    sprintf(credit_fee, "%.2f", adjusted_credit_fee);
 
     double total_cost = atof(admission_fee) + atof(other_fee) + atof(semester_fee) * atof(semester) + atof(credit_hours) * adjusted_credit_fee;
 
-    snprintf(total_cost_str, sizeof(total_cost_str), "%.2f", total_cost);
+    sprintf(total_cost_str, "%.2f", total_cost);
 
     sprintf(result_text, "Waiver: %s%%\nSemester: %sSemester Fee: %sCredit Hours: %sCredit Fee: %s\nAdmission Fee: %sOther Fee: %s\nTotal Cost: %sTk", waiver, semester, semester_fee, credit_hours, credit_fee, admission_fee, other_fee, total_cost_str);
 
