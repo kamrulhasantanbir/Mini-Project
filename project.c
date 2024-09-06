@@ -46,7 +46,6 @@ void calculate_waiver() {
     char waiver[50], semester[50], credit_hours[50], semester_fee[50], credit_fee[50], admission_fee[50], other_fee[50],total_cost_str[50],result_text [500];
     sprintf(waiver, "%d", waiver_percent);
        
-       
     FILE *file = fopen("list.txt", "r");
 
     int start_line = department * 7+1;
@@ -87,10 +86,8 @@ void calculate_waiver() {
 }
 
 void on_submit(GtkWidget *widget, gpointer user_data) {
-   department_name = gtk_combo_box_text_get_active_text(GTK_COMBO_BOX_TEXT(combo));
+    department_name = gtk_combo_box_text_get_active_text(GTK_COMBO_BOX_TEXT(combo));
     department = gtk_combo_box_get_active(GTK_COMBO_BOX(combo));
- 
-
     ssc_text = gtk_entry_get_text(GTK_ENTRY(entry1));
     ssc = atof(ssc_text);
     hsc_text = gtk_entry_get_text(GTK_ENTRY(entry2));
