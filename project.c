@@ -127,7 +127,7 @@ int main() {
     gtk_init(NULL, NULL);
 
     window = gtk_window_new(GTK_WINDOW_TOPLEVEL);
-    gtk_window_set_title(GTK_WINDOW(window), "Waiver Calculator");
+    gtk_window_set_title(GTK_WINDOW(window), "NUB Admission Costing Calculator");
     gtk_window_set_default_size(GTK_WINDOW(window), 600, 700);
     gtk_window_set_resizable(GTK_WINDOW(window), FALSE);
     g_signal_connect(window, "destroy", G_CALLBACK(gtk_main_quit), NULL);
