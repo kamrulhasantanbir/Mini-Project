@@ -43,7 +43,7 @@ void calculate_waiver() {
         waiver_percent = 0;
     }
 
-    char waiver[50], semester[50], credit_hours[50], semester_fee[50], credit_fee[50], admission_fee[50], other_fee[50],total_cost_str[50],result_text [500];
+    char waiver[50], semester[50], credit_hours[50], semester_fee[50], credit_fee[50], admission_fee[50], other_fee[50],total_cost_str[50],result_text [1000];
     sprintf(waiver, "%d", waiver_percent);
        
     FILE *file = fopen("list.txt", "r");
@@ -79,7 +79,7 @@ void calculate_waiver() {
 
     snprintf(total_cost_str, sizeof(total_cost_str), "%.2f", total_cost);
 
-    sprintf(result_text, "Waiver: %s\nSemester: %sSemester Fee: %sCredit Hours: %sCredit Fee: %s\nAdmission Fee: %sOther Fee: %s\nTotal Cost: %s", waiver, semester, semester_fee, credit_hours, credit_fee, admission_fee, other_fee, total_cost_str);
+    sprintf(result_text, "Waiver: %s%%\nSemester: %sSemester Fee: %sCredit Hours: %sCredit Fee: %s\nAdmission Fee: %sOther Fee: %s\nTotal Cost: %sTk", waiver, semester, semester_fee, credit_hours, credit_fee, admission_fee, other_fee, total_cost_str);
 
     gtk_label_set_text(GTK_LABEL(label4), result_text);
 
