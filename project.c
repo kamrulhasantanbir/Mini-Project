@@ -102,7 +102,7 @@ void on_submit(GtkWidget *widget, gpointer user_data) {
 void on_about(GtkWidget *widget, gpointer user_data) {
 
     GtkWidget * new_window = gtk_window_new(GTK_WINDOW_TOPLEVEL);
-    gtk_window_set_title(GTK_WINDOW(new_window), "About US");
+    gtk_window_set_title(GTK_WINDOW(new_window), "About us");
     gtk_window_set_default_size(GTK_WINDOW(new_window), 400, 700);
     gtk_window_set_resizable(GTK_WINDOW(new_window), FALSE);
     g_signal_connect(new_window, "destroy", G_CALLBACK(gtk_widget_destroy), NULL);
@@ -141,7 +141,7 @@ int main() {
     label4 = gtk_label_new(NULL);
 
     button = gtk_button_new_with_label("Submit");
-    button1= gtk_button_new_with_label("About");
+    button1= gtk_button_new_with_label("About us");
 
     entry1 = gtk_entry_new();
     entry2 = gtk_entry_new();
