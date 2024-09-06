@@ -44,6 +44,7 @@ void calculate_waiver() {
     }
 
     char waiver[50], semester[50], credit_hours[50], semester_fee[50], credit_fee[50], admission_fee[50], other_fee[50],total_cost_str[50],result_text [1000];
+    
     sprintf(waiver, "%d", waiver_percent);
        
     FILE *file = fopen("list.txt", "r");
