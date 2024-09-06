@@ -1,14 +1,14 @@
 ## Project Info
 
-#### Name: NUB Admission Costing Calculator
-#### Purpose: The NUB Admission Costing Calculator helps admission candidates at Northern University Bangladesh calculate their total admission costs for undergraduate programs.
+- **Name**: NUB Admission Costing Calculator
+- **Purpose**: The NUB Admission Costing Calculator helps admission candidates at Northern University Bangladesh calculate their total admission costs for undergraduate programs.
 
 ## Group Members
 
-#### Mahmud Elahi Alif 
-#### Jubyer Bin Nasir 
-#### Md. Tanbir Hasan 
-#### Nazmus Sakib
+- **Mahmud Elahi Alif**
+- **Jubyer Bin Nasir**
+- **Md. Tanbir Hasan**
+- **Nazmus Sakib**
 
 ## Features and Functionality
 The NUB Admission Costing Calculator includes the following features:
@@ -23,5 +23,3 @@ The NUB Admission Costing Calculator includes the following features:
 The project utilizes the following frameworks and GUI tools:
 
 - **GTK3**: Used for creating the graphical user interface (GUI) of the application. GTK3 provides a comprehensive set of widgets for building desktop applications.
-
-
