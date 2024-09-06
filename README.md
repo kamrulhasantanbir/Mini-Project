@@ -5,8 +5,5 @@
 
 # Group Members
 
-### Mahmud Elahi Alif
-### Jubyer Bin Nasir
-### Md. Tanbir Hasan
-### Nazmus Sakib
+#### Mahmud Elahi Alif ### Jubyer Bin Nasir ### Md. Tanbir Hasan ### Nazmus Sakib
 
